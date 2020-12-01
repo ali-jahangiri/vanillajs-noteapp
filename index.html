@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- starter -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="start">
+            <p>Trallo</p>
+            <button class="add"><i class="fas fa-plus"></i> add</button>
+          </div>
+        </div>
+      </div>
+      <!-- main content -->
+      <div id="mainContainer" class="row">
+        <div class="col-md-3 mr-3 ml-xl-5 ml-sm-0 ml-md-0 mb-xl-3 mb-4 mb-md-3">
+          <div class="controler">
+            <div
+              contenteditable="true"
+              data-placeholder="Enter Name"
+              class="name"
+            ></div>
+            <i class="fas fa-edit d-none"></i>
+          </div>
+          <div
+            contenteditable="true"
+            data-placeholder="Enter Task"
+            class="able"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
